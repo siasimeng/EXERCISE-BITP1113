@@ -1,0 +1,15 @@
+1.  Start
+2.  Read total_number_of_people
+3.  Set COUNTER = total_number_of_people
+4.  While COUNTER > 0
+5.       Read WEIGHT(kg), HEIGHT(meters)
+6.       BMI = WEIGHT(kg) / (HEIGHT(meters) * HEIGHT(meters))
+7.       If BMI < 18.5
+              Print " UNDERWEIGHT "
+8.       If BMI > 25
+              Print " OVERWEIGHT "
+9.       Else
+              Print " OPTIMAL WEIGHT"
+10. COUNTER = COUNTER - 1
+11. Endwhile
+12. End

@@ -1,0 +1,13 @@
+1. Start
+2. Read two number: NUM1, NUM2
+3. SUM = NUM1 + NUM2
+4. If NUM1 is bigger than NUM2
+        DIFFERENCE = NUM1 - NUM2
+5. Else
+        DIFFERENCE = NUM2 - NUM1
+6. If SUM is bigger than DIFFERENCE
+        Print SUM
+7. Else
+        Print DIFFERENCE
+8. End
+   

@@ -1,0 +1,56 @@
+int main()
+1. Start
+2. Set negativeNumber = 0
+3. Set positiveNumber = 0
+4. Call input ()
+5. Call calculateAverage ()
+5. Call displayAllNumber ()
+6. END
+
+input ()
+1. Start
+2. Read Number
+3. If Number is bigger than 100 or smaller than -100
+       END
+4. If Number is smaller than 0 
+       negativeNumber = negativeNumber + 1
+       Call setNumber ()
+5. If Number is bigger than 0
+       positiveNumber = positiveNumber + 1
+       Call setNumber ()
+6. Else
+       RETURN
+
+setNumber ()
+1. Start
+2. If negativeNumber + positiveNumber = 1
+        Set smallestNumber = Number
+        Set biggestNumber = Number
+        Set totalNumber = Number
+        Call input ()
+3. Else
+        Call calculateNumber ()
+
+calculateNumber ()
+1. Start
+2. totalNumber = totalNumber + Number
+3. If Number is smaller than smallestNumber
+        smallestNumber = Number
+4. If Number is bigger than biggestNumber
+        biggestNumber = Number
+5. Call input ()
+
+calculateAverage ()
+1. Start
+2. averageNumber = totalNumber / (negativeNumber + positiveNumber)
+3. Return
+
+displayAllNumber ()
+1. Start
+2. Display negativeNumber
+3. Display positiveNumber
+4. Display smallestNumber
+5. Display biggestNumber
+6. Display totalNumber
+7. Display averageNumber
+8. Return
