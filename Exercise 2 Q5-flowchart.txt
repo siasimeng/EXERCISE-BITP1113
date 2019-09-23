@@ -3,9 +3,9 @@ int main()
 2. Set negativeNumber = 0
 3. Set positiveNumber = 0
 4. Call input ()
-5. Call calculateAverage ()
-6. Call displayAllNumber ()
-7. END
+5. Call calculateAverage (negativeNumber, positiveNumber, totalNumber)
+6. Call displayAllNumber (negativeNumber, positiveNumber, smallestNumber, biggestNumber, totalNumber, averageNumber)
+7. End
 
 input ()
 1. Start
@@ -14,14 +14,14 @@ input ()
        END
 4. If Number is smaller than 0 
        negativeNumber = negativeNumber + 1
-       Call setNumber ()
+       Call setNumber (Number, negativeNumber, positiveNumber)
 5. If Number is bigger than 0
        positiveNumber = positiveNumber + 1
-       Call setNumber ()
+       Call setNumber (Number, negativeNumber, positiveNumber)
 6. Else
-       RETURN
+       Return (negativeNumber, positiveNumber, smallestNumber, biggestNumber, totalNumber)
 
-setNumber ()
+setNumber (Number, negativeNumber, positiveNumber)
 1. Start
 2. If negativeNumber + positiveNumber = 1
         Set smallestNumber = Number
@@ -29,9 +29,9 @@ setNumber ()
         Set totalNumber = Number
         Call input ()
 3. Else
-        Call calculateNumber ()
+        Call calculateNumber (Number, smallestNumber, biggestNumber, totalNumber)
 
-calculateNumber ()
+calculateNumber (Number, smallestNumber, biggestNumber, totalNumber)
 1. Start
 2. totalNumber = totalNumber + Number
 3. If Number is smaller than smallestNumber
@@ -40,12 +40,12 @@ calculateNumber ()
         biggestNumber = Number
 5. Call input ()
 
-calculateAverage ()
+calculateAverage (negativeNumber, positiveNumber, totalNumber)
 1. Start
 2. averageNumber = totalNumber / (negativeNumber + positiveNumber)
-3. Return
+3. Return averageNumber
 
-displayAllNumber ()
+displayAllNumber (negativeNumber, positiveNumber, smallestNumber, biggestNumber, totalNumber, averageNumber)
 1. Start
 2. Display negativeNumber
 3. Display positiveNumber
