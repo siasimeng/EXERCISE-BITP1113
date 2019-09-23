@@ -4,8 +4,8 @@ int main()
 3. Set positiveNumber = 0
 4. Call input ()
 5. Call calculateAverage ()
-5. Call displayAllNumber ()
-6. END
+6. Call displayAllNumber ()
+7. END
 
 input ()
 1. Start
