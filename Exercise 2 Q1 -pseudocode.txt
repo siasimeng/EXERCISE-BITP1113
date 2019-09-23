@@ -1,0 +1,8 @@
+main ()
+1.0 Start
+2.0 Read the temperature in degree Celsius, celcius
+3.0 Calculate temperature in Fahrenheit
+         fahrenheit = 32 + (9*celsius/5)
+4.0 Display the temperature in Fahrenheit, fahrenheit
+5.0 End
+

@@ -1,0 +1,15 @@
+1.0 Start
+2.0 Read two number: num1, num2
+3.0 Calculate the sum of two number, sum
+         sum = num1 + num2
+4.0 Calculate the difference of two number, difference
+         If num1 is bigger than num2
+              difference = num1 - num2
+         Else
+              difference = num2 - num1
+5.0 If sum is bigger than difference
+         Display the sum of two number, sum
+    Else
+         Display the difference of two number, difference
+6.0 End
+   

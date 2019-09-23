@@ -1,0 +1,17 @@
+1.0  Start
+2.0  Read total number of people, totalPeople
+3.0  While totalPeople is more than 0
+        3.1 Read weight(kg), w and height(meters), h
+        3.2 Calculate BMI of people, BMI
+                 BMI = w / (h * h)
+        3.3 Display massage depend on BMI
+                 If BMI is smaller than 18.5
+                      Display underweight
+                 If BMI is bigger than 25
+                      Display overweight
+                 Else
+                      Display optimalweight
+        3.4 Reduce total number of people, totalPeople by 1 after display message
+                 totalPeople = totalPeople - 1
+4.0 Repeat 3.0 if total number of people, totalPeople is more than 0.
+5.0 End

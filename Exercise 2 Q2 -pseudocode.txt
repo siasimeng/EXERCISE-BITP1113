@@ -1,0 +1,9 @@
+int main ()
+1.0 Start
+2.0 Read running duration in minutes, m and seconds, s
+3.0 Read steps run in one minute, steps
+4.0 Calculate miles run
+         miles = steps * 2.5/5280 * (m + s/60)
+5.0 Display miles run, miles
+6.0 End
+

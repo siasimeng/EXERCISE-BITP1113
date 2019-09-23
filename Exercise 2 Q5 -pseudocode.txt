@@ -1,0 +1,38 @@
+1.0 Start
+2.0 Set negative number, negativeNum equal to 0 and positive number, positiveNum equal to 0 
+3.0 Read integer number, num
+        3.1 If num is bigger than 100 or smaller than -100
+                 End
+            If num is smaller than 0
+                 negativeNum = negativeNum + 1
+            If num is bigger than 0
+                 positiveNum = positiveNum + 1
+            If num is equal to 0
+                 Go to 6.0
+4.0 Set num equal to smallest number, smallNum, biggest number,bigNum and total number, totalNum if this is the first number, num insert
+        4.1 If negativeNum + positiveNum = 1 
+                 smallNum = num
+                 bigNum = num
+                 totalNum = num       
+            Else
+                 Go to 5.0
+        4.2 Repeat 3.0
+5.0 Calculate and determine the number inserted   
+        5.1 Calculate total number, totalNum
+                 totalNum = totalNum + num
+        5.2 Determine the smallest number, smallNum
+                 If number, num is smaller than smallest number, smallNum
+                      smallNum = num
+        5.3 Determine the biggest number, bigNum
+                 If number, num is bigger than biggest number, bigNum
+                      bigNum = num
+6.0 Calculate average number, averageNum
+        averageNum = totalNum / (negativeNum + positiveNum)
+7.0 Display all the number
+        7.1 Display negativeNum
+        7.2 Display positiveNum
+        7.3 Display smallNum
+        7.4 Display bigNum
+        7.5 Display totalNum
+        7.6 Display averageNum
+8.0 End
