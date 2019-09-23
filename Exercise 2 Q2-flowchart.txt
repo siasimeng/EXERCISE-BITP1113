@@ -7,12 +7,13 @@ int main ()
 
 input ()
 1. Start
-2. Read steps run in one minute, STEPS
-3. Return
+2. Read running duration in minutes, M and seconds, S
+3. Read steps run in one minute, STEPS
+4. Return
 
 milesRun ()
 1. Start
-2. MILES = STEPS * 2.5 / 5280
+2. MILES = STEPS * 2.5 / 5280 * ( M + S/60)
 3. Return
 
 displayMILES ()
