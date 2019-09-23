@@ -1,21 +1,21 @@
 main ()
 1. Start
 2. Call input ()
-3. Call temperatureConversion ()
-4. Call displayFAHRENHEIT ()
+3. Call temperatureConversion (C)
+4. Call displayFahrenheit (F)
 5. End
 
 input ()
 1. Start
-2. Read the temperature in degree Celsius, CELSIUS
-3. Return
+2. Read the temperature in degree Celsius (C)
+3. Return C
 
-temperatureConversion ()
+temperatureConversion (C)
 1. Start
-2. FAHRENHEIT = 32 + (9 * CELSIUS/5)
-3. Return
+2. F = 32 + (9 * C/5)
+3. Return F
 
-displayFAHRENHEIT ()
+displayFAHRENHEIT (F)
 1. Start
-2. Display FAHRENHEIT
+2. Display Fahrenheit (F)
 3. Return
