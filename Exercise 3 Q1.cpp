@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+void main()
 {
 	float price = 9.90 ;
 	int quantity ;
@@ -15,5 +15,4 @@ int main()
 	
 	cout << "The total price is " << totalprice << '\n';
 	system("pause");
-	return 0;
 }
