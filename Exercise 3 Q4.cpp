@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+void main()
 {
 	double KE, m, v;
 	// KE = the kinetic energy
@@ -11,8 +11,10 @@ int main()
 	cin >> m;
 	cout << "Input the object's velocity (m/s): ";
 	cin >> v;
-	KE = m * v * v * 1/2 ;
+
+	//calculation
+	KE = m * v * v * 1 / 2;
+
 	cout << "The kinetic energy (Joules): " << KE << endl;
 	system("pause");
-	return 0;
-}
+} 
