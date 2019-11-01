@@ -1,3 +1,5 @@
+//please add comments for each of the execises
+
 #include<iostream>
 using namespace std;
 
